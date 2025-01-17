@@ -10,6 +10,6 @@ I bias technology selection based on personal preference and what has the most d
 
 I love DevOps and Cybersecurity and I found it difficult to choose between the two. I enjoyed learning how to secure technology, as well as automating processes. The approach I would like to take is to learn both DevOps and Cybersecurity concepts and create projects to facilitate my learning.
 
-This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) and while I do not want to put an X amount of days to it, I do want to use a similar style of documenting each day. 
+This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) and while I do not want to put an X amount of days to it, I do want to use a similar style of documenting each day. Each blog should list the resource or training that I completed, along with notes and any key takeaways I gathered.
 
 [Day One: Documenting my old project, adding a README](https://github.com/JamikalHall/DevSecOps/blob/main/2025/DSO-1)
