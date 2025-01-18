@@ -15,9 +15,13 @@ Now my WSL environment is setup for my workstation.
 
 Next, the guide needs us to create a new directory, so using ```mkdir l2c``` we create a new directory and ```cd``` into it.
 
+![see here](dso1-1.png)
+
 Next we clone the l2c challenges locally using this command :
 
 ```git clone https://github.com/rishabkumar7/ltc-labs ```
+
+![see here](dso1-2.png)
 
 There are some questions at the end:
 - What is version control?
