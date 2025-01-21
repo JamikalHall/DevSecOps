@@ -20,7 +20,7 @@ Next I run this command from Microsoft:
 
 Once installed, I do a quick check with `az upgrade` just to be sure the latest version is installed.
 
-!
+![see here](dso2-1.png)
 
 The AZ CLI is very powerful and allows me to automate tasks programmatically. At this moment, I do not need to do this, but it is good to have it set up. The next step will be to connect the cli to my Azure subscription.
 
@@ -42,7 +42,7 @@ We will be using Terraform since its the industry standard.
 
 We can install Terraform from [this link](https://developer.hashicorp.com/terraform/install) within our WSL instance.
 
-!
+![see here](dso2-2.png)
 
 - What is Infrastructure as Code?
 
