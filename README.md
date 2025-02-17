@@ -13,3 +13,4 @@ I love DevOps and Cybersecurity and I found it difficult to choose between the t
 This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) and while I do not want to put an X amount of days to it, I do want to use a similar style of documenting each day. Each blog should list the resource or training that I completed, along with notes and any key takeaways I gathered.
 
 [Day One: CLI and Git basics](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-1.md)
+[Day Two: Azure setup, IaC intro](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-2.md)
