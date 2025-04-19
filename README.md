@@ -17,3 +17,5 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 [Day Two: Azure setup, IaC intro](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-2.md)
 
 [Day Three: SSH ](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-3.md)
+
+[Day Four: Linux Basics For Hackers #1](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
