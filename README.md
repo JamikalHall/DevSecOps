@@ -15,3 +15,5 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 [Day One: CLI and Git basics](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-1.md)
 
 [Day Two: Azure setup, IaC intro](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-2.md)
+
+[Day Three: SSH ](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-3.md)
