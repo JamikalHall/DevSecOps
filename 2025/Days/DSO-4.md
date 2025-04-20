@@ -1,6 +1,8 @@
-## DevSecOps #4: Linux Basics For Hackers Chpater 1 Notes
+## DevSecOps #4: Linux Basics For Hackers
 
-The learntocloud guide recommends Linux Basics for Hackers. I originally completed the first three chapters, and I loved going through them. The next days will be spent working on that book, as I find it very valuable. A chapter per day.
+The learntocloud guide recommends Linux Basics for Hackers. I originally completed the first three chapters, and I loved going through them. The next days will be spent working on that book, as I find it very valuable. I will compile all of the notes I take into 1 post, even though it technically will have taken more than just 1 day.
+
+### Chapter 1
 
 The first thing I did for this was set up my Kali Linux VM. I downloaded Oracle’s VM box and set it up according to the instructions in the book. Next, I took notes on important definitions that may come up again, as well as general knowledge given in the book. Below are these definitions in my own words.
 
@@ -45,3 +47,68 @@ These commands talk about finding things in Linux.
 - **grep —** can be used as a filter to search for keywords. It is often used when output is piped from one command to another.
 
 The chapter goes over traversing Linux with commands such as mkdir and rm, but I feel comfortable with these commands. Overall, a lot of information to digest, but obviously I don’t feel like I am supposed to memorize these. I would learn them through repeated use. I am looking forward to chapter 2!
+
+### Chapter 2
+
+“In Linux, nearly everything you deal with directly is a file, and most often these will be text files; for instance, all configuration files in Linux are text files.”
+
+It is crucial to be able to effectively manipulate text files in Linux and Linux apps. This chapter introduces several commands and techniques for doing so.
+
+cat is the most basic command for text display, but it has limitations. Doing as the book says, running the cat command on etc/snort/snort.conf will display the entire configuration file, which is incredibly long, and this is not an efficient or practical way to view and work with the file.
+
+Head and Tail are two commands that are used to display the beginning and ending lines of a file respectively. head will by default, display the first 10 lines and tail will display the last 20 lines.
+
+Both of these can be configured to display more or less by using the ‘-’ switch to specify the exact number of lines you want to display.
+
+For very long files, displaying the line count may be useful. You can do this with the NL (number lines) command.
+
+Grep is the most widely used text manipulation command, as it allows you to filter the content of a file or display. For example, with the conf file, you could display the file using cat, then pipe that result into ‘grep output’, and you would only display lines that include the word output.
+
+The sed command lets you search for occurrences of a word or a text pattern and then perform some action on it. The name of the command is a contraction of stream editor, because it follows the same concept as a stream editor. In its most basic form, sed operates like the Find and Replace function in Windows. Here is an example below.
+
+For working with larger files, the commands More and Less are useful. More shows the contents of a file one page at a time, which is helpful if you only need to see a certain page of a file. Less is similar to More, but with additional functionality. With Less, you can scroll through a file, but you can also filter it for terms.
+
+Here are the exercises for Chapter 2.
+
+    Navigate to /usr/share/wordlists/metasploit. This is a directory of multiple wordlists that can be used to brute force passwords in various passwordprotected devices using Metasploit, the most popular pentesting and hacking framework.
+
+2. Use the cat command to view the contents of the file passwords.lst.
+I had a typo! At first, I thought I had the wrong installation or was in the wrong directory, so I just used -ls to see everything and lo and behold, it just turns out that I cannot type sometimes!
+
+3. Use the more command to display the file passwords.lst.
+
+4. Use the less command to view the file passwords.lst.
+
+5. Now use the nlcommand to place line numbers on the passwords in passwords.lst. There should be 88,396 passwords.
+I got 88,397!
+
+Use the tail command to see the last 20 passwords in passwords.lst.
+I typed the command too fast, but you can see that the last passwords match.
+
+7. Use the cat command to display passwords.lst and pipe it to find all the passwords that contain 123
+
+Summary: A fun and quick chapter. I definitely see some the power that Linux offers if you take some time to familiarize yourself with the commands. The fact that you can do all of these things from the command line is what makes Linux so interesting to learn.
+
+### Chapter 3
+
+“Understanding networking is crucial for any aspiring hacker. In many situations, you’ll be hacking something over a network, and a good hacker needs to know how to connect to and interact with that network.”
+
+“This chapter shows you some essential Linux tools for analyzing and managing networks during your network hacking adventures”
+
+ifconfig is one of the most common tools for examining and interacting with network interfaces. ifconfig shows useful information about the active network interfaces on the system.
+
+iwconfig returns information about the wireless adapter connected to the system. It gives information such as the adapter’s IP address, MAC address, and what mode it is in.
+
+One especially interesting thing that I learned during this study session is how trivial it is to change your IP address in Linux. It can be done with ifconfig. Changing your Network mask and broadcast address can also be done this way. Another important aspect is the ability to also spoof your MAC address. When studying for Sec+, it mentions that it is easy to do this, but does not actually explain how. It is literally as simple as typing three commands into the Linux CLI.
+
+You can request a new IP address from a DHCP server without needing to restart your computer by using the dhclient(for Debian-based systems) command. All you would need to do is specify which interface you wish to change.
+
+Dig is a useful command for gathering information. it queries a DNS server to gather DNS information about the site. This info could include the IP address, the target’s email server and any subdomains and IP addresses.
+
+You can change the DNS server you reference to resolve IP addresses by editing the /etc/resolv.conf file on the system. Once open, you can change the DNS server to whatever you please, like Google’s server (8.8.8.8).
+
+The hosts file also performs domain name-IP address translation, and you can use it to specify your own IP address.
+
+
+
+
