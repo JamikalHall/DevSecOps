@@ -20,4 +20,5 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 
 ### Linux Basics For Hackers
 
-[Day Four: Linux Basics For Hackers](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
+[Day Four: L](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
+[Day Five: ](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-5.md)
