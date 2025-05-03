@@ -18,4 +18,6 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 
 [Day Three: SSH ](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-3.md)
 
+### Linux Basics For Hackers
+
 [Day Four: Linux Basics For Hackers](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
