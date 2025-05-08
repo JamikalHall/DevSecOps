@@ -20,5 +20,12 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 
 ### Linux Basics For Hackers
 
-[Day Four: L](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
-[Day Five: ](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-5.md)
+[Day Four: Basics](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-4.md)
+
+[Day Five: Text Manipulation](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-5.md)
+
+[Day Six: Networks](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-6.md)
+
+[Day Seven: Adding/Removing Software](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-7.md)
+
+[Day Eight: Directory and File Permissions](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-8.md)
