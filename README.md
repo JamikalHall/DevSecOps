@@ -31,3 +31,5 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 [Day Eight: Directory and File Permissions](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-8.md)
 
 [Day Nine: Linux Basics Wrap Up and Next Steps](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-9.md)
+
+[Day Ten: Getting familiar with Go!](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-10.md)
