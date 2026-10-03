@@ -33,3 +33,7 @@ This was inspired by [Michael Cade's 90 Days of DevOps](https://github.com/Micha
 [Day Nine: Linux Basics Wrap Up and Next Steps](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-9.md)
 
 [Day Ten: Getting familiar with Go!](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-10.md)
+
+###LearntoCloud.guide Curriculum
+
+[Day Eleven: Refresher](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/dso-11.md)
