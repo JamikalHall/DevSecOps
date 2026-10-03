@@ -12,4 +12,5 @@ Big Ideas:
 - **Containers** - a single unit of software containing all the code and its dependencies in one package. This ensures the package can run reliably from one environment to the next.
 - **Kubernetes** - a management platform for containers.
 
+![I completed all the tasks in Phase 0](https://github.com/JamikalHall/DevSecOps/blob/main/2025/Days/DSO-11.png)
 
